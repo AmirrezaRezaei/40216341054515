@@ -1,22 +1,12 @@
 #include <iostream>
-
-using namespace std ;
-
-int main() {
-
-    int a, b, c;
-
-    cin >> a >> b >> c;
-
-    if ((a * a + b * b == c * c) || (a * a + c * c == b * b) || (b * b + c * c == a * a)) {
-
-        cout << " True";
-
-    } else {
-
-        cout << "False";
+using namespace std;
 
 
-    }
+int main()
 
+{ int i,p[100];
+        for(i=0;i<=99;i++)
+            cin>>p[i];
+        for (i=99;i>=0;i--)
+            cout<<p[i] << " " ;
 }
