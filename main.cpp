@@ -1,6 +1,10 @@
-#include <iostream>
+#include<iostream>
 
-int main() {
-    std::cout << "  hello " << std::endl;
-    return 0;
+using namespace std ;
+int main()
+{ int i,meghdar[6];
+    for(i=0;i<=5;i++)
+        cin>>meghdar[i];
+    for (i=5;i>=0;i--)
+        cout<<meghdar[i];
 }
