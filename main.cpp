@@ -1,10 +1,13 @@
-#include<iostream>
+#include <iostream>
+using namespace std;
 
-using namespace std ;
 int main()
-{ int i,meghdar[6];
-    for(i=0;i<=5;i++)
-        cin>>meghdar[i];
-    for (i=5;i>=0;i--)
-        cout<<meghdar[i];
+{
+    int i, mehdi[100];
+    for (i = 0; i <= 99; i++)
+        cin >> mehdi[i];
+    for (i = 0; i <= 99; i++)
+        if (mehdi[i] == i)
+            cout << mehdi[i] << " ";
+    return 0;
 }
